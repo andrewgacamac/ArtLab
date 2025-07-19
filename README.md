@@ -25,8 +25,10 @@ Transform your images with AI using Black Forest Labs' Flux APIs. Upload images,
 3. **Configure Environment**
    ```bash
    cp backend/.env.example backend/.env
-   # Edit backend/.env and add your FLUX_API_KEY
+   # Edit backend/.env and replace 'your_actual_api_key_here' with your real API key
    ```
+   
+   ⚠️ **IMPORTANT**: The `.env` file is git-ignored and will NOT be committed to prevent exposing your API key.
 
 4. **Start Development Server**
    ```bash
